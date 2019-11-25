@@ -1,15 +1,27 @@
-2019-11-25 14:21:40,409  INFO [main] LoginPage:22 - ****************************** Starting test cases execution  *****************************************
-2019-11-25 14:21:44,807  INFO [main] LoginPage:26 - launching chrome broswer
-2019-11-25 14:21:53,225  INFO [main] LoginPage:39 - ****************************** starting test case *****************************************
-2019-11-25 14:21:53,226  INFO [main] LoginPage:40 - ****************************** KiposTitleTest *****************************************
-2019-11-25 14:21:53,672  INFO [main] LoginPage:43 - login page title is--->Kipos Collective
-2019-11-25 14:21:53,678  INFO [main] LoginPage:46 - ****************************** ending test case *****************************************
-2019-11-25 14:21:53,678  INFO [main] LoginPage:47 - ****************************** KiposTitleTest *****************************************
-2019-11-25 14:21:54,471  INFO [main] LoginPage:69 - ****************************** Browser is closed *****************************************
-2019-11-25 14:21:54,471  INFO [main] LoginPage:22 - ****************************** Starting test cases execution  *****************************************
-2019-11-25 14:21:57,295  INFO [main] LoginPage:26 - launching chrome broswer
-2019-11-25 14:22:05,849  INFO [main] LoginPage:53 - ****************************** starting test case *****************************************
-2019-11-25 14:22:05,890  INFO [main] LoginPage:54 - ****************************** KiposLogoTest *****************************************
-2019-11-25 14:22:06,038  INFO [main] LoginPage:59 - ****************************** ending test case *****************************************
-2019-11-25 14:22:06,039  INFO [main] LoginPage:60 - ****************************** KiposLogoTest *****************************************
-2019-11-25 14:22:07,425  INFO [main] LoginPage:69 - ****************************** Browser is closed *****************************************
+2019-11-25 16:10:43,564  INFO [main] LoginPageTest:23 - ****************************** Starting test cases execution  *****************************************
+2019-11-25 16:10:47,450  INFO [main] LoginPageTest:27 - launching chrome broswer
+2019-11-25 16:11:01,431  INFO [main] LoginPageTest:34 - entering application URL
+2019-11-25 16:11:01,454  INFO [main] LoginPageTest:43 - ****************************** starting test case *****************************************
+2019-11-25 16:11:01,455  INFO [main] LoginPageTest:44 - ****************************** freeCrmTitleTest *****************************************
+2019-11-25 16:11:01,500  INFO [main] LoginPageTest:47 - login page title is--->Kipos Collective
+2019-11-25 16:11:01,506  INFO [main] LoginPageTest:50 - ****************************** ending test case *****************************************
+2019-11-25 16:11:01,506  INFO [main] LoginPageTest:51 - ****************************** freeCrmTitleTest *****************************************
+2019-11-25 16:11:02,882  INFO [main] LoginPageTest:73 - ****************************** Browser is closed *****************************************
+2019-11-25 16:11:02,893  INFO [main] LoginPageTest:23 - ****************************** Starting test cases execution  *****************************************
+2019-11-25 16:11:06,096  INFO [main] LoginPageTest:27 - launching chrome broswer
+2019-11-25 16:11:14,328  INFO [main] LoginPageTest:34 - entering application URL
+2019-11-25 16:11:14,333  INFO [main] LoginPageTest:57 - ****************************** starting test case *****************************************
+2019-11-25 16:11:14,333  INFO [main] LoginPageTest:58 - ****************************** freemCRMLogoTest *****************************************
+2019-11-25 16:11:14,520  INFO [main] LoginPageTest:63 - ****************************** ending test case *****************************************
+2019-11-25 16:11:14,521  INFO [main] LoginPageTest:64 - ****************************** freemCRMLogoTest *****************************************
+2019-11-25 16:11:15,356  INFO [main] LoginPageTest:73 - ****************************** Browser is closed *****************************************
+2019-11-25 16:11:15,737 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-11-25 16:11:15,740 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-11-25 16:11:15,745 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-11-25 16:11:15,750 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-11-25 16:11:15,751 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/subham/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-11-25 16:11:16,305 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-11-25 16:11:16,306 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-11-25 16:11:16,306 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-11-25 16:11:16,307 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-11-25 16:11:16,307 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/subham/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

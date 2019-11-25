@@ -32,20 +32,20 @@ public class LoginPageTest {
 		
 		driver.get("https://www.kiposcollective.com/#/");
 		log.info("entering application URL");
-		log.warn("Hey this just a warning message");
-		log.fatal("hey this is just fatal error message");
-		log.debug("this is debug message");
+		//log.warn("Hey this just a warning message");
+		//log.fatal("hey this is just fatal error message");
+		//log.debug("this is debug message");
 	}
 	
 	
 	@Test(priority=1)
-	public void freeCrmTitleTest(){
+	public void kiposTitleTest(){
 		log.info("****************************** starting test case *****************************************");
 		log.info("****************************** freeCrmTitleTest *****************************************");
 		String title = driver.getTitle();
 		System.out.println(title);
 		log.info("login page title is--->"+title);
-		Assert.assertEquals(title,"#1 Free CRM for Any Business: Online Customer Relationship Software");
+		Assert.assertEquals(title,"Kipos Collective");
 		
 		log.info("****************************** ending test case *****************************************");
 		log.info("****************************** freeCrmTitleTest *****************************************");
@@ -53,11 +53,11 @@ public class LoginPageTest {
 	}
 	
 	@Test(priority=2)
-	public void freemCRMLogoTest(){
+	public void kiposLogoTest(){
 		log.info("****************************** starting test case *****************************************");
 		log.info("****************************** freemCRMLogoTest *****************************************");
 
-		boolean b = driver.findElement(By.xpath("//img[@class='img-responsive']")).isDisplayed();
+		boolean b = driver.findElement(By.xpath("//div[@class='col-lg-3 col-xl-3 col-md-3 col-sm-4 col-4 logo-block navbar-left order-aline-1 ng-scope']//img")).isDisplayed();
 		Assert.assertTrue(b);
 		
 		log.info("****************************** ending test case *****************************************");

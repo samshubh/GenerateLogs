@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Generate Logs Extent reports" verbose="1" >
+  
+  
+  <listeners>
+  
+    <listener class-name="com.qa.util.ExtentReporterNG"/>
+  
+  </listeners>
+  
+  <test name="TestNGAutomationbyPOM" >
+    <classes>
+      
+      <class name="com.qa.tests.LoginPageTest"/>
+    
+    </classes>
+    
+ </test>
+</suite>

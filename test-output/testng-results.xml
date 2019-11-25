@@ -2,36 +2,36 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27086" started-at="2019-11-25T14:21:40 IST" finished-at="2019-11-25T14:22:07 IST">
+  <suite name="Generate Logs Extent reports" duration-ms="31864" started-at="2019-11-25T16:10:43 IST" finished-at="2019-11-25T16:11:15 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27086" started-at="2019-11-25T14:21:40 IST" finished-at="2019-11-25T14:22:07 IST">
-      <class name="com.qa.tests.LoginPage">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.tests.LoginPage@2173f6d9]" name="setup" is-config="true" duration-ms="12813" started-at="2019-11-25T14:21:40 IST" finished-at="2019-11-25T14:21:53 IST">
+    <test name="TestNGAutomationbyPOM" duration-ms="31864" started-at="2019-11-25T16:10:43 IST" finished-at="2019-11-25T16:11:15 IST">
+      <class name="com.qa.tests.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.tests.LoginPageTest@27808f31]" name="setup" is-config="true" duration-ms="17881" started-at="2019-11-25T16:10:43 IST" finished-at="2019-11-25T16:11:01 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="kiposTitleTest()[pri:1, instance:com.qa.tests.LoginPage@2173f6d9]" name="kiposTitleTest" duration-ms="465" started-at="2019-11-25T14:21:53 IST" finished-at="2019-11-25T14:21:53 IST">
+        <test-method status="PASS" signature="kiposTitleTest()[pri:1, instance:com.qa.tests.LoginPageTest@27808f31]" name="kiposTitleTest" duration-ms="73" started-at="2019-11-25T16:11:01 IST" finished-at="2019-11-25T16:11:01 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- kiposTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.LoginPage@2173f6d9]" name="tearDown" is-config="true" duration-ms="784" started-at="2019-11-25T14:21:53 IST" finished-at="2019-11-25T14:21:54 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.LoginPageTest@27808f31]" name="tearDown" is-config="true" duration-ms="1372" started-at="2019-11-25T16:11:01 IST" finished-at="2019-11-25T16:11:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.tests.LoginPage@2173f6d9]" name="setup" is-config="true" duration-ms="11373" started-at="2019-11-25T14:21:54 IST" finished-at="2019-11-25T14:22:05 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.tests.LoginPageTest@27808f31]" name="setup" is-config="true" duration-ms="11437" started-at="2019-11-25T16:11:02 IST" finished-at="2019-11-25T16:11:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="kiposLogoTest()[pri:2, instance:com.qa.tests.LoginPage@2173f6d9]" name="kiposLogoTest" duration-ms="194" started-at="2019-11-25T14:22:05 IST" finished-at="2019-11-25T14:22:06 IST">
+        <test-method status="PASS" signature="kiposLogoTest()[pri:2, instance:com.qa.tests.LoginPageTest@27808f31]" name="kiposLogoTest" duration-ms="194" started-at="2019-11-25T16:11:14 IST" finished-at="2019-11-25T16:11:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- kiposLogoTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.LoginPage@2173f6d9]" name="tearDown" is-config="true" duration-ms="1384" started-at="2019-11-25T14:22:06 IST" finished-at="2019-11-25T14:22:07 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.LoginPageTest@27808f31]" name="tearDown" is-config="true" duration-ms="831" started-at="2019-11-25T16:11:14 IST" finished-at="2019-11-25T16:11:15 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.tests.LoginPage -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.qa.tests.LoginPageTest -->
+    </test> <!-- TestNGAutomationbyPOM -->
+  </suite> <!-- Generate Logs Extent reports -->
 </testng-results>
